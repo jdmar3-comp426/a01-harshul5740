@@ -1,0 +1,226 @@
+body {
+  background: linear-gradient(45deg, rgba(194, 127, 3, 0.801), #ff7b007e, #d1bc00c9, #f76301a9);
+  background-size: 200% 200%;
+  animation: gradient 30s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+  h1 {
+    color: #000000;
+    text-align: center;
+  }
+
+  /* p {
+    text-align: center;
+    color:aquamarine;
+    font-family: "Papyrus2", Papyrus, serif;
+  } */
+
+  .synopsis {
+    text-align: center;
+    color:aquamarine;
+    font-family: "Papyrus2", Papyrus, serif;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-weight: 900;
+    font-size: 25px;
+
+  }
+
+  .hide {
+    display: none;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: "Papyrus2", Papyrus, serif;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+  padding-bottom: 40px;
+
+  }
+
+  .synopsis:hover + .hide {
+    display: block;
+    color: rgb(0, 34, 0);
+
+  }
+
+  #header {
+    text-align: center;
+    color:rgb(78, 78, 78);
+    font-size: 100px;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    text-shadow: 2px 2px 4px #00ff80;
+  }
+
+  .synopsis {
+    text-align: center;
+    color:rgb(78, 78, 78);
+  }
+
+  .menu {
+    width: 100%;
+    background-color: rgb(10, 12, 104);
+    overflow: auto;
+    border-style: solid;
+    border-color: #797100;
+  }
+
+  .menu a {
+    float:left;
+    padding: 15px;
+    color: aquamarine;
+    font-size: 25px;
+    width: 31.2%;
+    text-align: center;
+    font-family: "Papyrus2", Papyrus, serif;
+    /* -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate; */
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #333;
+  overflow:visible;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px; */
+  }
+
+  .pageOneMenu {
+    width: 100%;
+    background-color: rgb(10, 12, 104);
+    overflow: auto;
+    border-style: solid;
+    border-color: #797100;
+  }
+
+  .pageOneMenu a {
+    float:left;
+    padding: 15px;
+    color: aquamarine;
+    font-size: 25px;
+    width: 45%;
+    text-align: center;
+    font-family: "Papyrus2", Papyrus, serif;
+    /* -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate; */
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #333;
+  overflow:visible;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px; */
+  }
+
+  .pageTwoMenu {
+    width: 100%;
+    background-color: rgb(10, 12, 104);
+    overflow: auto;
+    border-style: solid;
+    border-color: #797100;
+  }
+
+  .pageTwoMenu a {
+    float:left;
+    padding: 15px;
+    color: aquamarine;
+    font-size: 25px;
+    width: 45%;
+    text-align: center;
+    font-family: "Papyrus2", Papyrus, serif;
+    /* -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate; */
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #333;
+  overflow:visible;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px; */
+  }
+
+  .pageThreeMenu {
+    width: 100%;
+    background-color: rgb(10, 12, 104);
+    overflow: auto;
+    border-style: solid;
+    border-color: #797100;
+  }
+
+  .pageThreeMenu a {
+    float:left;
+    padding: 15px;
+    color: aquamarine;
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+    font-family: "Papyrus2", Papyrus, serif;
+    /* -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate; */
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #333;
+  overflow:visible;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px; */
+  }
+
+  /* link1 {
+    text-align: center;
+  }
+  #link2 {
+    text-align: center;
+  }
+  #link3 {
+    text-align: center;
+  } */
+
+  /* @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e75e02, 0 0 40px #e69d00, 0 0 50px #f13817, 0 0 60px #e6007f, 0 0 70px #e6c400;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #4dc7ff, 0 0 40px #6e4dff, 0 0 50px #1105c4, 0 0 60px #0e0468, 0 0 70px #4dffbb, 0 0 80px #027529;
+    }
+  } */
